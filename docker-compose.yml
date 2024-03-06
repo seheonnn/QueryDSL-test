@@ -4,7 +4,6 @@ version: '3'
 services:
   mysql:
     image: mysql:latest
-    restart: always
     container_name: querydsl
     environment:
       MYSQL_ROOT_USER: root
